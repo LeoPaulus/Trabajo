@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Trabajo</display-name>
+  <servlet>
+    <servlet-name>Principal</servlet-name>
+    <jsp-file>/WEB-INF/login.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Principal</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Registro</servlet-name>
+    <jsp-file>/WEB-INF/registro.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registro</servlet-name>
+    <url-pattern>/registro</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>RegistroCorrecto</servlet-name>
+    <jsp-file>/WEB-INF/registrocorrecto.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistroCorrecto</servlet-name>
+    <url-pattern>/registrook</url-pattern>
+  </servlet-mapping>
+      <servlet>
+    <servlet-name>LoginAdmin</servlet-name>
+    <jsp-file>/WEB-INF/loginadmin.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginAdmin</servlet-name>
+    <url-pattern>/loginadmin</url-pattern>
+  </servlet-mapping>
+       <servlet>
+    <servlet-name>Reserva</servlet-name>
+    <jsp-file>/WEB-INF/reserva.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Reserva</servlet-name>
+    <url-pattern>/Reserva</url-pattern>
+  </servlet-mapping>
+</web-app>
